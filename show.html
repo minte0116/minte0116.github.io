@@ -7,7 +7,7 @@
     <meta name="language" content="zh-CN">
     <meta name="github" content="https://github.com/sun0225SUN/Awesome-Love-Code">
     <meta name="describe" content="收集不易，您的star是我坚持的动力，同时也欢迎各位PR哦! ">
-    <link rel="icon" type="image/x-icon" href="https://drive.google.com/file/d/1b2G2zenFP3ZCWMXQNI6wc1cYnp2NnBBD/view?usp=sharing">
+    <link rel="icon" type="image/x-icon" href="image/lover.jpg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <style>
@@ -130,7 +130,8 @@
             e_minsold = (e_hrsold - hrsold) * 60;
             minsold = Math.floor((e_hrsold - hrsold) * 60);
             seconds = Math.floor((e_minsold - minsold) * 60);
-            span_dt_dt.innerHTML = daysold + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
+            daysoldf = daysold+1
+            span_dt_dt.innerHTML = daysoldf + "天" + hrsold + "小时" + minsold + "分" + seconds + "秒";
         }
 
         show_date_time();
