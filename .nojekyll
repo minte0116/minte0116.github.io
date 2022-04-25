@@ -1,0 +1,4 @@
+touch .nojekyll #.nojekyll无需任何内容
+git add .nojekyll
+git commit -m 'add .nojekyll'
+git pushh
