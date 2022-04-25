@@ -124,7 +124,7 @@
             secondsold = Math.floor(sectimeold);
             msPerDay = 24 * 60 * 60 * 1000
             e_daysold = timeold / msPerDay
-            daysold = Math.floor(e_daysold)+1;
+            daysold = Math.floor(e_daysold);
             e_hrsold = (e_daysold - daysold) * 24;
             hrsold = Math.floor(e_hrsold);
             e_minsold = (e_hrsold - hrsold) * 60;
@@ -262,7 +262,7 @@
                                     if (sequence.length === 0) {
                                         S.Shape.switchShape(S.ShapeBuilder.letter(''));
                                     } else {
-                                        window.open('video.html', '_self');
+                                        window.open('result.html', '_self');
                                         performAction(sequence);
                                     }
                                 } else {
